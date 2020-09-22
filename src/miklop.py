@@ -1,17 +1,16 @@
 import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time
 from collections import Counter
 while True:
+    
   configFile = getConfig.getConfigFile(sys.argv[1:])
-
   config = getConfig.getConfig(configFile)
   logFile = config['logfile'][1:-1]
   lastTimeStrUTC = config['lasttimeutc']
   lastTimeObj = dateParser.dateParser(lastTimeStrUTC[1:-1])
   
-  time.sleep(60)
-  sys.stdout.write(configFile)
-  sys.stdout.write(logFile)
-  sys.stdout.write(lastTimeObj)
+  sys.stdout.write(configFile + '\n')
+  sys.stdout.write(logFile + '\n')
+  sys.stdout.write(str(lastTimeObj) + '\n')
 
   f = open(logFile)
   line = f.readline()
@@ -28,7 +27,7 @@ while True:
         parsedLine.append(t)
     line = f.readline()    
   f.close()
-  sys.stdout.write(parsedLine)    
-  writeInfluxDB.writeInfluxDB(parsedLine)
+  sys.stdout.write(str(parsedLine) + '\n')    
+  #writeInfluxDB.writeInfluxDB(parsedLine)
   getConfig.writeLastTime(configFile)
-
+  time.sleep(60)
