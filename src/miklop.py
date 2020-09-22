@@ -9,7 +9,7 @@ lastTimeStrUTC = config['lasttimeutc']
 lastTimeObj = dateParser.dateParser(lastTimeStrUTC[1:-1])
 
 while True:
-  time.sleep(10)
+  time.sleep(60)
   print(configFile)
   print(logFile)
   print(lastTimeObj)
@@ -29,9 +29,7 @@ while True:
         parsedLine.append(t)
     line = f.readline()    
   f.close()
-  print(parsedLine)
-
-#writeInfluxDB.writeInfluxDB(parsedLine)
-
-#getConfig.writeLastTime(configFile)
+  
+  writeInfluxDB.writeInfluxDB(parsedLine)
+  getConfig.writeLastTime(configFile)
 
