@@ -1,4 +1,4 @@
-import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB
+import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time
 from collections import Counter
 
 configFile = getConfig.getConfigFile(sys.argv[1:])
@@ -8,29 +8,28 @@ logFile = config['logfile'][1:-1]
 lastTimeStrUTC = config['lasttimeutc']
 lastTimeObj = dateParser.dateParser(lastTimeStrUTC[1:-1])
 
-print(configFile)
-print(logFile)
-print(lastTimeObj)
+while True:
+  time.sleep(10)
+  print(configFile)
+  print(logFile)
+  print(lastTimeObj)
 
-f = open(logFile)
-
-line = f.readline()
-
-parsedLine = []
-
-while line:
-  if "query from" in line:
-    t = parseDNS.parseDNS(line, lastTimeObj)
-    if t != '':
-      parsedLine.append(t)
-  if "script=dns" in line:
-    t = parseDNS.parseDNS_cache(line, lastTimeObj)
-    if t != '':
-      parsedLine.append(t)
-  line = f.readline()    
-f.close()
-
-print(parsedLine)
+  f = open(logFile)
+  line = f.readline()
+  parsedLine = []
+ 
+  while line:
+    if "query from" in line:
+      t = parseDNS.parseDNS(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+    if "script=dns" in line:
+      t = parseDNS.parseDNS_cache(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+    line = f.readline()    
+  f.close()
+  print(parsedLine)
 
 #writeInfluxDB.writeInfluxDB(parsedLine)
 
