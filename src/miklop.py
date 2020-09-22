@@ -8,7 +8,7 @@ while True:
   lastTimeStrUTC = config['lasttimeutc']
   lastTimeObj = dateParser.dateParser(lastTimeStrUTC[1:-1])
   
-  sys.stdout.write(configFile + '\n')
+  print(configFile + '\n')
   sys.stdout.write(logFile + '\n')
   sys.stdout.write(str(lastTimeObj) + '\n')
 
