@@ -46,6 +46,6 @@ while True:
   
   writeInfluxDB.writeInfluxDB(parsedLine)
   
-  #getConfig.writeLastTime(configFile)
+  getConfig.writeLastTime(configFile)
   
-  time.sleep(10)
+  time.sleep(60)
