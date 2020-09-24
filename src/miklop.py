@@ -1,4 +1,4 @@
-import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time
+import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS
 from collections import Counter
 while True:
     
@@ -21,10 +21,23 @@ while True:
       t = parseDNS.parseDNS(line, lastTimeObj)
       if t != '':
         parsedLine.append(t)
+    
     if "script=dns" in line:
       t = parseDNS.parseDNS_cache(line, lastTimeObj)
       if t != '':
         parsedLine.append(t)
+    
+    if "logged in" in line or "logged out" in line:
+      t = parseUSERS.parseUserLogged(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+
+    if "login failure" in line:
+      t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+
+
     line = f.readline()    
   
   f.close()
@@ -33,6 +46,6 @@ while True:
   
   writeInfluxDB.writeInfluxDB(parsedLine)
   
-  getConfig.writeLastTime(configFile)
+  #getConfig.writeLastTime(configFile)
   
-  time.sleep(60)
+  time.sleep(10)
