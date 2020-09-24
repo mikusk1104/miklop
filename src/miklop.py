@@ -1,4 +1,4 @@
-import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS
+import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS, parseSYSTEM
 from collections import Counter
 while True:
     
@@ -34,6 +34,11 @@ while True:
 
     if "login failure" in line:
       t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+
+    if "script=system" in line:
+      t = parseSYSTEM.parseSystem(line, lastTimeObj)
       if t != '':
         parsedLine.append(t)
 
