@@ -1,3 +1,2 @@
-{"time":"2020-09-24T19:54:21.436711+00:00","syslogtag":"script,info","msg":" router.k: script=system cpuLoad=0 freeMEM=77639680 totalMEM=134217728 freeHDD=1794048 totalHDD=15990784"}
-
-
+{"time":"2020-09-25T04:07:54.308163+00:00","syslogtag":"script,info","msg":" router.k: .id=*3;comment=internet;fp-rx-bits-per-second=480;fp-rx-packets-per-second=1;fp-tx-bits-per-second=336;fp-tx-packets-per-second=1;name=ether1;rx-bits-per-second=0;rx-drops-per-second=0;rx-errors-per-second=0;rx-packets-per-second=0;tx-bits-per-second=0;tx-drops-per-second=0;tx-errors-per-second=0;tx-packets-per-second=0;tx-queue-drops-per-second=0"}
+{"time":"2020-09-25T04:07:54.308692+00:00","syslogtag":"script,info","msg":" router.k: .id=*4;comment=trunk to sw.k;fp-rx-bits-per-second=9720;fp-rx-packets-per-second=10;fp-tx-bits-per-second=148360;fp-tx-packets-per-second=20;name=ether2;rx-bits-per-second=14728;rx-drops-per-second=0;rx-errors-per-second=0;rx-packets-per-second=14;tx-bits-per-second=170072;tx-drops-per-second=0;tx-errors-per-second=0;tx-packets-per-second=26;tx-queue-drops-per-second=0"}

@@ -1,4 +1,4 @@
-import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS, parseSYSTEM
+import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS, parseSYSTEM, parseInterfaces
 from collections import Counter
 while True:
     
@@ -42,6 +42,10 @@ while True:
       if t != '':
         parsedLine.append(t)
 
+    if "rx-bits-per-second=" in line:
+      t = parseInterfaces.parseInterface(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
 
     line = f.readline()    
   
