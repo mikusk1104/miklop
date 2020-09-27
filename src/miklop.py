@@ -1,4 +1,4 @@
-import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS, parseSYSTEM, parseInterfaces
+import sys, getConfig, dateParser, datetime, parseDNS, writeInfluxDB, time, parseUSERS, parseSYSTEM, parseInterfaces, parseAccounting
 from collections import Counter
 while True:
     
@@ -46,6 +46,12 @@ while True:
       t = parseInterfaces.parseInterface(line, lastTimeObj)
       if t != '':
         parsedLine.append(t)
+
+    if "script=accounting" in line:
+      t = parseAccounting.parseAccounting(line, lastTimeObj)
+      if t != '':
+        parsedLine.append(t)
+
 
     line = f.readline()    
   

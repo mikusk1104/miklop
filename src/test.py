@@ -1,4 +1,4 @@
-line = " router.k: .id=*3;comment=internet;fp-rx-bits-per-second=30864656;fp-rx-packets-per-second=2554;fp-tx-bits-per-second=624784;fp-tx-packets-per-second=1385;name=ether1;rx-bits-per-second=30934240;rx-drops-per-second=0;rx-errors-per-second=0;rx-packets-per-second=2553;tx-bits-per-second=723248;tx-drops-per-second=0;tx-errors-per-second=0;tx-packets-per-second=1385;tx-queue-drops-per-second=0"
+line = " router.k: .id=*0;bytes=7277;dst-address=192.168.28.191;packets=13;src-address=52.17.157.213;script=accounting"
 line =  line[1:]
 
 lineHostName = line[:line.find(": ")]
@@ -6,21 +6,13 @@ lineHostName = line[:line.find(": ")]
 lineParsedMsg = line.split(";")
 
 for x in lineParsedMsg:
-  if "name" in x:
-    lineIntName = x[x.find("=")+1:]
-  if "rx-bits-per-second" in x:
-    lineRXbits = x[x.find("=")+1:]
-  if "tx-bits-per-second" in x:
-    lineTXbits = x[x.find("=")+1:]
-  if "rx-drops-per-second" in x:
-    lineRXdrops = x[x.find("=")+1:]
-  if "rx-errors-per-second" in x:
-    lineRXerrors = x[x.find("=")+1:]
-  if "tx-drops-per-second" in x:
-    lineTXdrops = x[x.find("=")+1:]
-  if "tx-errors-per-second" in x:
-    lineTXerrors = x[x.find("=")+1:]
-
-parsedLine = lineHostName + '_INTERFACES' + ',Interface=' + lineIntName + ' RX=' + lineRXbits + ',TX=' + lineTXbits + ',RXDrops=' + lineRXdrops + ',TXDrops=' + lineTXdrops + ',RXError=' + lineRXerrors + ',TXError=' + lineTXerrors
+  if "bytes" in x:
+    lineBytes = x[x.find("=")+1:]
+  if "dst-address" in x:
+    lineDST = x[x.find("=")+1:]
+  if "src-address" in x:
+    lineSRC = x[x.find("=")+1:]
+  
+parsedLine = lineHostName + '_accounting' + ',DestinationIP=' + lineDST + ',SourceIP=' + lineSRC + ' bytes=' + lineBytes
 
 print(parsedLine)
