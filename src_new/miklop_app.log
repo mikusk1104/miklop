@@ -281,3 +281,138 @@
 "2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
 "2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
 "2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Conversion suceed :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-09-30T22:39:20 +0200" - miklop - INFO - File opened successfully :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying read line from logfile
+"2020-09-30T22:39:20 +0200" - miklop - INFO - We got first line :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 ggg.www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
+"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Conversion suceed :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-09-30T22:40:37 +0200" - miklop - INFO - File opened successfully :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying read line from logfile
+"2020-09-30T22:40:37 +0200" - miklop - INFO - We got first line :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458  A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
+"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Conversion suceed :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-09-30T22:41:21 +0200" - miklop - INFO - File opened successfully :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying read line from logfile
+"2020-09-30T22:41:21 +0200" - miklop - INFO - We got first line :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 w1.w2.www.mikrotik.com A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
+"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Conversion suceed :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-09-30T22:41:38 +0200" - miklop - INFO - File opened successfully :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying read line from logfile
+"2020-09-30T22:41:38 +0200" - miklop - INFO - We got first line :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 w1.w2.www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
+"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)

@@ -1,4 +1,6 @@
-import json, dateParser, re
+import json
+import dateParser
+
 from datetime import datetime
 
 def parseDNS(message, lastTime):
