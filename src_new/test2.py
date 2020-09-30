@@ -11,9 +11,12 @@ hostname = lineHostName = lineParsedLine["syslogtag"][:-1]
 lineParsedMsg = lineParsedLine["msg"].split()
 lineParsedDomain = lineParsedMsg[4][:-1].split('.')
 
+localIP = lineParsedMsg[2][:-1]
 domainLenght = len(lineParsedDomain)
 
 domain = lineParsedDomain[domainLenght-2] + '.' + lineParsedDomain[domainLenght-1]
 
 
-print(time, hostname, lineParsedMsg, lineParsedDomain, domainLenght, domain)
+print(time)
+print(localIP)
+print(domain)
