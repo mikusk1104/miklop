@@ -5,7 +5,14 @@ import logging
 import logging.handlers as handlers
 
 sys.stdout.write('Getting config file \n')
-configFile = getConfig.getConfigFile(sys.argv[1:])
+try:
+  configFile = getConfig.getConfigFile(sys.argv[1:])
+except:
+  sys.stdout.write('Please start program with parameter -c <config file> \n')
+  sys.stdout.write('Example: python miklop.py -c config.ini \n')
+  sys.stdout.write('exiting ... \n')
+  exit()
+
 sys.stdout.write('Config file = ' + configFile + '\n')
 
 sys.stdout.write('Getting config items from file \n')
