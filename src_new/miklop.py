@@ -53,9 +53,9 @@ logger.info('Trying convert string date to date object')
 try:
   lastTimeObj = dateParser.dateParser(lastTimeStrUTC[1:-1])
 except:
-  logger.error('Problem convert date to object, please check section "lasttimeutc" if date is in correcto format example: "2020-09-25T12:49:43.943211+00:00"')
+  logger.error('Problem convert date to object, please check section "lasttimeutc" if date is in correct format example: "2020-09-25T12:49:43.943211+00:00"')
   exit()
-logger.info('Conversion suceed :-)')
+logger.info('Conversion succeed :-)')
 
 logger.info('Trying open logfile: ' + logFile)
 try:
@@ -76,7 +76,6 @@ logger.info('We got first line :-)')
 parsedLine = []
 
 while line:
-
   if "query from" in line:
     logger.info('Trying parse "query from" line: ' + line[:-1])
     try:
