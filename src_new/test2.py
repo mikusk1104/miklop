@@ -1,28 +1,19 @@
-import logging
-import logging.handlers as handlers
+import json
 
-try:
-  logger = logging.getLogger('miklop')
-  logger.setLevel(logging.INFO)
-  formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='"%Y-%m-%dT%H:%M:%S %z"')
-  logHandler = handlers.RotatingFileHandler('test.log', maxBytes=5000000, backupCount=5)
-  logHandler.setLevel(logging.INFO)
-  logHandler.setFormatter(formatter)
-  logger.addHandler(logHandler)
-except:
-  print('problem setup logging components, exiting ... ')
-  exit()
+message = '{"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 com. A"}'
 
-logger.info('Setup logging components done.')
+lineParsedLine = json.loads(message)
 
+print(lineParsedLine)
 
+time = lineParsedLine['time']
+hostname = lineHostName = lineParsedLine["syslogtag"][:-1]
+lineParsedMsg = lineParsedLine["msg"].split()
+lineParsedDomain = lineParsedMsg[4][:-1].split('.')
+
+domainLenght = len(lineParsedDomain)
+
+domain = lineParsedDomain[domainLenght-2] + '.' + lineParsedDomain[domainLenght-1]
 
 
-
-# try:
-#   1/0
-# except:
-#   logging.exception("message")
-# finally:
-#   print('hotovo')
-
+print(time, hostname, lineParsedMsg, lineParsedDomain, domainLenght, domain)

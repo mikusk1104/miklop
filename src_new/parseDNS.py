@@ -3,7 +3,6 @@ from datetime import datetime
 
 def parseDNS(message, lastTime):
   lineParsedLine = json.loads(message)
-
   lineDate = dateParser.dateParser(lineParsedLine['time'])
       
   if lineDate < lastTime:
@@ -14,12 +13,12 @@ def parseDNS(message, lastTime):
   lineDestDomain = ''
 
   lineLocalIP = lineParsedMsg[2][:-1]
-  if re.match(r"[a-z0-9-]*\.[a-z0-9-]", lineParsedMsg[4]):
-    lineDestDomain = re.findall(r"[a-z0-9-]*\.{1,61}[a-z0-9-]*\.{1,61}$", lineParsedMsg[4])
-    lineDestDomain = lineDestDomain[0][:-1]
-  if lineDestDomain == '':
+
+  lineParsedDomain = lineParsedMsg[4][:-1].split('.')
+  domainLenght = len(lineParsedDomain)
+  if domainLenght < 2:
     return ''
-# 
+  lineDestDomain = lineParsedDomain[domainLenght-2] + '.' + lineParsedDomain[domainLenght-1]
   
   parsedLine = lineHostName + '_DNS' + ',domain=' + lineDestDomain + ',localIP=' + lineLocalIP + ' value=1 ' + str(int(lineDate.timestamp()))
   
