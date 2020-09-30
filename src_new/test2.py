@@ -1,6 +1,6 @@
 import json
 
-message = '{"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 com. A"}'
+message = '{"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 gggg.wwww.mikrotik.com. A"}'
 
 lineParsedLine = json.loads(message)
 
