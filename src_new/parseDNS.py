@@ -35,11 +35,22 @@ def parseDNS_cache(message, lastTime):
 
 
   lineParsedMsg = lineParsedLine["msg"].split()
-    
+
+  for x in lineParsedMsg:
+    if "cache_size" in x:
+      lineCacheSize = x[x.find("=")+1:]
+      if lineCacheSize == '':
+        return ''
+    if "cache_used" in x:
+      lineCacheUsed = x[x.find("=")+1:]
+      if lineCacheUsed =='':
+        return ''
+    if "cache_items" in x:
+      lineCacheItems = x[x.find("=")+1:]
+      if lineCacheItems == '':
+        return ''
+
   lineHostName = lineParsedMsg[0][:-1]
-  lineCacheSize = lineParsedMsg[2][11:]
-  lineCacheUsed = lineParsedMsg[3][11:]
-  lineCacheItems = lineParsedMsg[4][12:]
 
   parsedLine = lineHostName + '_DNS' + ' CacheSize=' + lineCacheSize + ',CacheUsed=' + lineCacheUsed + ',CacheItems=' + lineCacheItems + ' ' + str(int(lineDate.timestamp()))
  

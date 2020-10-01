@@ -1,418 +1,799 @@
-"2020-09-30T21:45:15 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T21:45:15 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T21:45:15 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T21:45:15 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T21:45:15 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T21:45:15 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T21:45:15 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mik   rotik.com. A"}
-"2020-09-30T21:45:15 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T21:46:40 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T21:46:40 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mik   rotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"
-"2020-09-30T21:46:40 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T21:47:35 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T21:47:35 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: éľľľľľľľľquery from ľľľľľľíľíá+ľýíí
-"2020-09-30T21:47:35 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mik   rotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"
-"2020-09-30T21:47:35 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T21:50:39 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T21:50:39 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: éľľľľľľľľquery from ľľľľľľíľíá+ľýíí
-"2020-09-30T21:50:39 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mik   rotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"20ôô§ô§20-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T21:50:39 +0200" - miklop - ERROR - Problem parse line skipping to next line
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"
-"2020-09-30T21:50:39 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:27:09 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:27:09 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:27:09 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:29:44 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:29:44 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:29:44 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:30:12 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:30:12 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 .com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:30:12 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:30:27 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:30:27 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:30:27 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:30:53 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:30:53 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 ggg.www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:30:53 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:39:20 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:39:20 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 ggg.www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:39:20 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:40:37 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:40:37 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458  A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:40:37 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:41:21 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:41:21 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 w1.w2.www.mikrotik.com A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:41:21 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Conversion suceed :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-09-30T22:41:38 +0200" - miklop - INFO - File opened successfully :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying read line from logfile
-"2020-09-30T22:41:38 +0200" - miklop - INFO - We got first line :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 w1.w2.www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:44.868847+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31459 pi.k. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:00:47.000829+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31460 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:17.005629+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31461 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:44.988387+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31462 pi.k. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:01:46.997449+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31463 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557101+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31464 grafana.com. AAAA"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.557940+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31465 grafana.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788025+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31466 raw.githubusercontent.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:06.788676+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31467 raw.githubusercontent.com. AAAA"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:17.001083+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31468 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:45.112920+00:00","syslogtag":"router.k:","msg":" query from 192.168.27.186: #31469 pi.k. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:02:47.002772+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31470 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-09-30T02:03:16.999835+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31471 www.mikrotik.com. A"}
-"2020-09-30T22:41:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:36:57 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:36:57 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:36:57 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:37:38 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:37:38 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-1 0-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:37:38 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_ite ms=354"}
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_us ed=173 cache_items=346"}
+"2020-10-01T04:37:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:43:32 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:43:32 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:43:32 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:46:52 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:46:52 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:46:52 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:49:50 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:49:50 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:49:50 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:49:50 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:49:50 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:49:50 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:49:50 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:50:56 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:50:56 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:50:56 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:50:56 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:50:56 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:50:56 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:50:56 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:52:02 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:52:02 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=175 cache_items=351"}
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:52:02 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:52:30 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:52:30 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-1 0-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:52:30 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:52:30 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:52:54 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:52:54 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" rou ter.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:52:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:53:51 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:53:51 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351s"}
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:53:51 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:54:13 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:54:13 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:54:13 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:55:21 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:55:21 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:55:21 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:55:21 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:55:21 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:55:21 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:55:21 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:56:04 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:56:04 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:56:04 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:58:13 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:58:13 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:58:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:58:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:58:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:58:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:58:59 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:58:59 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - <class 'Exception'>
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - <class 'Exception'>
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - <class 'Exception'>
+"2020-10-01T04:58:59 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T04:58:59 +0200" - miklop - ERROR - <class 'Exception'>
+"2020-10-01T04:59:41 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T04:59:41 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T04:59:41 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T04:59:41 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T04:59:41 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T04:59:41 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T04:59:41 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T04:59:41 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:02:24 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:02:24 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:02:24 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:02:24 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:04:13 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:04:13 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:04:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:13 +0200" - miklop - ERROR - <class 'TypeError'>
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:04:36 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:04:36 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:04:36 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:04:36 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:05:13 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:05:13 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:05:13 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:05:13 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:05:13 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:05:13 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:05:13 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:05:13 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:06:12 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:06:12 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:06:12 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:06:12 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:06:12 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:06:12 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:06:12 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:07:05 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:07:05 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:05 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - Problem parse line skipping to next line
+"2020-10-01T05:07:05 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:07:47 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:07:47 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:07:47 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:07:47 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:07:47 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:07:47 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:07:47 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:08:43 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:08:43 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:05:34.042166+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=177 cache_items=355"}
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:10:34.052349+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=176 cache_items=354"}
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:15:34.053546+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2048 cache_used=173 cache_items=346"}
+"2020-10-01T05:08:43 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:10:09 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:10:09 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:10:09 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:10:27 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:10:27 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:10:27 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192. 168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:11:17 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:11:17 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A "}
+"2020-10-01T05:11:17 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:11:47 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:11:47 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:11:47 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-0fff1T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:11:47 +0200" - miklop - ERROR - time data '2020-10-0fff1T02:17:56.061078+00:00' does not match format '%Y-%m-%dT%H:%M:%S.%f%z'
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:18:33 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:18:33 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:18:33 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:21:38 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:21:38 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:21:38 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:21:59 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:21:59 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:21:59 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:22:24 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:22:24 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:1ss9:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:22:24 +0200" - miklop - ERROR - time data '2020-10-01T03:1ss9:44.819988+00:00' does not match format '%Y-%m-%dT%H:%M:%S.%f%z'
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:22:24 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:22:55 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:22:55 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mik  usk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:22:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:29:55 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:29:55 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying parse "script=dns" line: {"time":"2020-10-01T02:00:34.041104+00:00","syslogtag":"script,info","msg":" router.k: script=dns cache_size=2050 cache_used=175 cache_items=351"}
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying parse "query from" line: {"time":"2020-10-01T02:17:56.061078+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.137: #39046 gateway.fe.apple-dns.net. A"}
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:29:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:30:55 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:30:55 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:30:55 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:31:19 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:31:19 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-0 1T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:31:19 +0200" - miklop - ERROR - time data '2020-10-0 1T03:19:44.819988+00:00' does not match format '%Y-%m-%dT%H:%M:%S.%f%z'
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:31:19 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:32:03 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:32:03 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:32:03 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:32:26 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:32:26 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:32:26 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:33:54 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:33:54 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:33:54 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:34:28 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:34:28 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: user mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:34:28 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:35:07 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:35:07 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:35:07 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:38:36 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:38:36 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:38:36 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:42:57 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:42:57 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:42:57 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:42:57 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:42:57 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:44:32 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:44:32 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:44:32 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:44:32 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:44:32 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:45:31 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:45:31 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:45:31 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:45:31 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:45:31 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:50:43 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:50:43 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:50:43 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:50:43 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:50:43 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:51:03 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:51:03 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:51:03 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:51:03 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:51:03 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:51:55 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:51:55 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:51:55 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:51:55 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:51:55 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:53:35 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:53:35 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:53:35 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:53:35 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:53:35 +0200" - miklop - ERROR - can only concatenate str (not "int") to str
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:55:28 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:55:28 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:55:28 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:55:28 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:55:28 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:58:44 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:58:44 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:58:44 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:58:44 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:58:44 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T05:59:11 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T05:59:11 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T05:59:11 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T05:59:11 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T05:59:11 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T06:00:30 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T06:00:30 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T06:00:30 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T06:00:30 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T06:00:30 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:43:32 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:43:32 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:43:32 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:43:32 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:43:32 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:46:41 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:46:41 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:46:41 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:47:30 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:47:30 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:47:30 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:47:30 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:47:30 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:47:57 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:47:57 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:47:57 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:47:57 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:47:57 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:49:10 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:49:10 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:49:10 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T07:49:10 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:49:10 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:50:58 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:50:58 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:50:58 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T07:50:58 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:50:58 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:57:19 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:57:19 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:57:19 +0200" - miklop - ERROR - name 'lineHostName' is not defined
+"2020-10-01T07:57:19 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:57:19 +0200" - miklop - ERROR - name 'lineHostName' is not defined
+"2020-10-01T07:59:06 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:59:06 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:59:06 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:59:06 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:59:06 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:59:06 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:59:06 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T07:59:43 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T07:59:43 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T07:59:43 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T07:59:43 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T07:59:43 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:01:15 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:01:15 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:01:15 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:01:15 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:01:15 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:01:37 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:01:37 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:01:37 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:01:37 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:01:37 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:03:04 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:03:04 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:03:04 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T08:03:04 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:03:04 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:04:27 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:04:27 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:04:27 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T08:04:27 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:04:27 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:05:38 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:05:38 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:05:38 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T08:05:38 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:05:38 +0200" - miklop - ERROR - name 'parsedLine' is not defined
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:06:53 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:06:53 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: us er mikusk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:06:53 +0200" - miklop - ERROR - local variable 'lineUserName' referenced before assignment
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:06:53 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-01T08:07:26 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-01T08:07:26 +0200" - miklop - INFO - We got first line :-)
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":"router.k: user mik usk logged in from 192.168.27.195 via winbox"}
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Line parsed OK :-)
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Trying parse "users" line: {"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
+"2020-10-01T08:07:26 +0200" - miklop - INFO - Line parsed OK :-)

@@ -5,6 +5,7 @@ import logging.handlers as handlers
 import getConfig
 import dateParser
 import parseDNS
+import parseUSERS
 
 sys.stdout.write('Getting config file \n')
 try:
@@ -80,8 +81,32 @@ while line:
     logger.info('Trying parse "query from" line: ' + line[:-1])
     try:
       t = parseDNS.parseDNS(line, lastTimeObj)
-    except:
-      logger.error('Problem parse line skipping to next line')
+    except Exception as e:
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      logger.info('Line parsed OK :-)')
+      parsedLine.append(t)
+
+  if "script=dns" in line:
+    logger.info('Trying parse "script=dns" line: ' + line[:-1])
+    try:
+      t = parseDNS.parseDNS_cache(line, lastTimeObj)
+    except Exception as e:
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      logger.info('Line parsed OK :-)')
+      parsedLine.append(t)
+
+  if "logged in" in line or "logged out" in line:
+    logger.info('Trying parse "users" line: ' + line[:-1])
+    try:
+      t = parseUSERS.parseUserLogged(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
       line = f.readline()
       continue
     if t != '':
