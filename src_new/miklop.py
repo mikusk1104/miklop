@@ -113,6 +113,19 @@ while line:
       logger.info('Line parsed OK :-)')
       parsedLine.append(t)
 
+  if "login failure" in line:
+    logger.info('Trying parse "users" line: ' + line[:-1])
+    try:
+      t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      logger.info('Line parsed OK :-)')
+      parsedLine.append(t)
+
+
   line = f.readline()    
   
 f.close()

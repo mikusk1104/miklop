@@ -1,22 +1,18 @@
 import json
 
-message = '{"time":"2020-09-30T02:00:16.998144+00:00","syslogtag":"router.k:","msg":" query from 192.168.99.11: #31458 gggg.wwww.mikrotik.com. A"}'
+message = '{"time":"2020-10-01T03:20:08.372731+00:00","syslogtag":"system,error,critical","msg":" router.k: login failure for user mikusk from 192.168.27.195 via winbox"}'
 
 lineParsedLine = json.loads(message)
-
-print(lineParsedLine)
-
-time = lineParsedLine['time']
-hostname = lineHostName = lineParsedLine["syslogtag"][:-1]
-lineParsedMsg = lineParsedLine["msg"].split()
-lineParsedDomain = lineParsedMsg[4][:-1].split('.')
-
-localIP = lineParsedMsg[2][:-1]
-domainLenght = len(lineParsedDomain)
-
-domain = lineParsedDomain[domainLenght-2] + '.' + lineParsedDomain[domainLenght-1]
+lineParsedMsg = lineParsedLine["msg"].strip().split()
 
 
-print(time)
-print(localIP)
-print(domain)
+print(lineParsedMsg)
+
+lineHostName = lineParsedMsg[0][:-1]
+lineUserName = lineParsedMsg[5]
+lineIP = lineParsedMsg[7]
+lineVIA = lineParsedMsg[9]
+
+parsedLine = lineHostName + '_USERS' + ',Action=login_failure' + ',UserName=' + lineUserName + ',Via=' + lineVIA + ',IP=' + lineIP + ' value=1 '
+
+print(parsedLine)
