@@ -1,11 +1,16 @@
 import sys
 import logging
 import logging.handlers as handlers
+import time
 
 import getConfig
 import dateParser
 import parseDNS
 import parseUSERS
+import parseAccounting
+import parseInterfaces
+import parseSYSTEM
+import writeInfluxDB
 
 sys.stdout.write('Getting config file \n')
 try:
@@ -29,9 +34,20 @@ logFile = config['logfile'][1:-1]
 appLogFile = config['applogfile'][1:-1]
 lastTimeStrUTC = config['lasttimeutc']
 
+influx_hostname = config['influx_hostname'][1:-1]
+influx_port = config['influx_port'][1:-1]
+influx_db = config['influx_db'][1:-1]
+
+
 sys.stdout.write('Log file: ' + logFile + '\n')
 sys.stdout.write('Application log file: ' + appLogFile + '\n')
 sys.stdout.write('Last time: ' + lastTimeStrUTC + '\n')
+
+sys.stdout.write('InfluxDB hostname: ' + influx_hostname + '\n')
+sys.stdout.write('InfluxDB port: ' + influx_port + '\n')
+sys.stdout.write('InfluxDB database: ' + influx_db + '\n')
+
+
 
 sys.stdout.write('Activating logging to file: ' + logFile + '\n')
 try:
@@ -76,61 +92,109 @@ logger.info('We got first line :-)')
 
 parsedLine = []
 
-while line:
-  if "query from" in line:
-    logger.info('Trying parse "query from" line: ' + line[:-1])
-    try:
-      t = parseDNS.parseDNS(line, lastTimeObj)
-    except Exception as e:
-      logger.error(e)
-      line = f.readline()
-      continue
-    if t != '':
-      logger.info('Line parsed OK :-)')
-      parsedLine.append(t)
+while True:
+  while line:
+    if "query from" in line:
+      logger.info('Trying parse "query from" line: ' + line[:-1])
+      try:
+        t = parseDNS.parseDNS(line, lastTimeObj)
+      except Exception as e:
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
 
-  if "script=dns" in line:
-    logger.info('Trying parse "script=dns" line: ' + line[:-1])
-    try:
-      t = parseDNS.parseDNS_cache(line, lastTimeObj)
-    except Exception as e:
-      logger.error(e)
-      line = f.readline()
-      continue
-    if t != '':
-      logger.info('Line parsed OK :-)')
-      parsedLine.append(t)
+    if "script=dns" in line:
+      logger.info('Trying parse "script=dns" line: ' + line[:-1])
+      try:
+        t = parseDNS.parseDNS_cache(line, lastTimeObj)
+      except Exception as e:
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
 
-  if "logged in" in line or "logged out" in line:
-    logger.info('Trying parse "users" line: ' + line[:-1])
-    try:
-      t = parseUSERS.parseUserLogged(line, lastTimeObj)
-    except Exception as e :
-      logger.error(e)
-      line = f.readline()
-      continue
-    if t != '':
-      logger.info('Line parsed OK :-)')
-      parsedLine.append(t)
+    if "logged in" in line or "logged out" in line:
+      logger.info('Trying parse "users" line: ' + line[:-1])
+      try:
+        t = parseUSERS.parseUserLogged(line, lastTimeObj)
+      except Exception as e :
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
 
-  if "login failure" in line:
-    logger.info('Trying parse "users" line: ' + line[:-1])
-    try:
-      t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
-    except Exception as e :
-      logger.error(e)
-      line = f.readline()
-      continue
-    if t != '':
-      logger.info('Line parsed OK :-)')
-      parsedLine.append(t)
+    if "login failure" in line:
+      logger.info('Trying parse "users" line: ' + line[:-1])
+      try:
+        t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
+      except Exception as e :
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
+
+    if "script=accounting" in line:
+      logger.info('Trying parse "accounting" line: ' + line[:-1])
+      try:
+        t = parseAccounting.parseAccounting(line, lastTimeObj)
+      except Exception as e :
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
+
+    if "rx-bits-per-second=" in line:
+      logger.info('Trying parse "interfaces" line: ' + line[:-1])
+      try:
+        t = parseInterfaces.parseInterface(line, lastTimeObj)
+      except Exception as e :
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
+
+    if "script=system" in line:
+      logger.info('Trying parse "system" line: ' + line[:-1])
+      try:
+        t = parseSYSTEM.parseSystem(line, lastTimeObj)
+      except Exception as e :
+        logger.error(e)
+        line = f.readline()
+        continue
+      if t != '':
+        logger.info('Line parsed OK :-)')
+        parsedLine.append(t)
 
 
-  line = f.readline()    
-  
-f.close()
+    line = f.readline()    
+    
+  f.close()
 
-print(parsedLine)
+  logger.info('Writing to database')
+  try:
+    writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
+  except Exception as e :
+    logger.error(e)
+  logger.info('Writing to database OK :-)')
 
+  logger.info('Writing last time to config file')
+  try:
+    getConfig.writeLastTime(configFile)
+  except Exception as e :
+    logger.error(e)
+  logger.info('Writing last time OK :-)')
 
-
+  time.sleep(60)

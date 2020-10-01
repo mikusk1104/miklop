@@ -1,4 +1,1 @@
-{"time":"2020-10-01T03:19:44.819988+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged in from 192.168.27.195 via winbox"}
-{"time":"2020-10-01T03:19:49.529928+00:00","syslogtag":"system,info,account","msg":" router.k: user mikusk logged out from 192.168.27.195 via winbox"}
-{"time":"2020-10-01T03:20:08.372731+00:00","syslogtag":"system,error,critical","msg":" router.k: login failure for user mikusk from 192.168.27.195 via winbox"}
-{"time":"2020-10-01T03:20:14.142022+00:00","syslogtag":"system,error,critical","msg":" router.k: login failure for user mikusk from 192.168.27.195 via winbox"}
+{"time":"2020-10-01T17:06:06.735968+00:00","syslogtag":"script,info","msg":" router.k: script=system cpuLoad=0 freeMEM=77426688 totalMEM=134217728 freeHDD=1867776 totalHDD=15990784"}

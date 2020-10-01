@@ -8,3 +8,14 @@
 {"time":"2020-10-01T11:41:09.624649+00:00","syslogtag":"router.k:","msg":" done query: #16499 dns name exists, but no appropriate record"}
                                                                                                                                                                                                                                                                  {"time":"2020-10-01T16:13:52.919650+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.182: #26847 adservice.google.sk. A"}
 {"time":"2020-10-01T16:13:52.919650+00:00","syslogtag":"router.k:","msg":" query from 192.168.26.182: #26848 adservice.google.com. A"}
+
+{"time":"2020-10-01T19:18:24.361322+00:00","syslogtag":"script,info","msg":" router.k: .id=*0;bytes=78;dst-address=192.168.26.183;packets=1;src-address=142.250.27.188;script=accounting"}
+{"time":"2020-10-01T19:18:24.362283+00:00","syslogtag":"script,info","msg":" router.k: .id=*1;bytes=34500;dst-address=192.168.28.191;packets=112;src-address=172.217.23.206;script=accounting"}
+{"time":"2020-10-01T19:18:24.363541+00:00","syslogtag":"script,info","msg":" router.k: .id=*2;bytes=6612;dst-address=192.168.27.195;packets=13;src-address=13.107.5.93;script=accounting"}
+{"time":"2020-10-01T19:18:24.364861+00:00","syslogtag":"script,info","msg":" router.k: .id=*3;bytes=6386;dst-address=52.114.32.24;packets=22;src-address=192.168.27.195;script=accounting"}
+{"time":"2020-10-01T19:18:24.366326+00:00","syslogtag":"script,info","msg":" router.k: .id=*4;bytes=2447;dst-address=52.59.121.220;packets=17;src-address=192.168.28.191;script=accounting"}
+
+{"time":"2020-10-01T17:08:22.695397+00:00","syslogtag":"script,info","msg":" router.k: .id=*3;comment=internet;fp-rx-bits-per-second=0;fp-rx-packets-per-second=0;fp-tx-bits-per-second=0;fp-tx-packets-per-second=0;name=ether1;rx-bits-per-second=512;rx-drops-per-second=0;rx-errors-per-second=0;rx-packets-per-second=1;tx-bits-per-second=0;tx-drops-per-second=0;tx-errors-per-second=0;tx-packets-per-second=0;tx-queue-drops-per-second=0"}
+{"time":"2020-10-01T17:08:22.695397+00:00","syslogtag":"script,info","msg":" router.k: .id=*4;comment=trunk to sw.k;fp-rx-bits-per-second=3656;fp-rx-packets-per-second=3;fp-tx-bits-per-second=4384;fp-tx-packets-per-second=3;name=ether2;rx-bits-per-second=4264;rx-drops-per-second=0;rx-errors-per-second=0;rx-packets-per-second=4;tx-bits-per-second=13424;tx-drops-per-second=0;tx-errors-per-second=0;tx-packets-per-second=7;tx-queue-drops-per-second=0"}
+
+{"time":"2020-10-01T17:06:06.735968+00:00","syslogtag":"script,info","msg":" router.k: script=system cpuLoad=0 freeMEM=77426688 totalMEM=134217728 freeHDD=1867776 totalHDD=15990784"}
