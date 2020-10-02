@@ -95,7 +95,6 @@ parsedLine = []
 while True:
   while line:
     if "query from" in line:
-      logger.info('Trying parse "query from" line: ' + line[:-1])
       try:
         t = parseDNS.parseDNS(line, lastTimeObj)
       except Exception as e:
@@ -103,11 +102,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "script=dns" in line:
-      logger.info('Trying parse "script=dns" line: ' + line[:-1])
       try:
         t = parseDNS.parseDNS_cache(line, lastTimeObj)
       except Exception as e:
@@ -115,11 +112,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "logged in" in line or "logged out" in line:
-      logger.info('Trying parse "users" line: ' + line[:-1])
       try:
         t = parseUSERS.parseUserLogged(line, lastTimeObj)
       except Exception as e :
@@ -127,11 +122,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "login failure" in line:
-      logger.info('Trying parse "users" line: ' + line[:-1])
       try:
         t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
       except Exception as e :
@@ -139,11 +132,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "script=accounting" in line:
-      logger.info('Trying parse "accounting" line: ' + line[:-1])
       try:
         t = parseAccounting.parseAccounting(line, lastTimeObj)
       except Exception as e :
@@ -151,11 +142,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "rx-bits-per-second=" in line:
-      logger.info('Trying parse "interfaces" line: ' + line[:-1])
       try:
         t = parseInterfaces.parseInterface(line, lastTimeObj)
       except Exception as e :
@@ -163,11 +152,9 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
     if "script=system" in line:
-      logger.info('Trying parse "system" line: ' + line[:-1])
       try:
         t = parseSYSTEM.parseSystem(line, lastTimeObj)
       except Exception as e :
@@ -175,7 +162,6 @@ while True:
         line = f.readline()
         continue
       if t != '':
-        logger.info('Line parsed OK :-)')
         parsedLine.append(t)
 
 
@@ -183,18 +169,19 @@ while True:
     
   f.close()
 
-  logger.info('Writing to database')
-  try:
-    writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
-  except Exception as e :
-    logger.error(e)
-  logger.info('Writing to database OK :-)')
+  if len(parsedLine) > 0:
+    logger.info('Writing to database: ' + str(parsedLine))
+    try:
+      writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
+    except Exception as e :
+      logger.error(e)
+  else:
+    logger.info('No new entries')
 
   logger.info('Writing last time to config file')
   try:
     getConfig.writeLastTime(configFile)
   except Exception as e :
     logger.error(e)
-  logger.info('Writing last time OK :-)')
-
+  
   time.sleep(60)

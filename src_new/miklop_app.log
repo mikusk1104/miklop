@@ -1,23 +1,30 @@
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Conversion succeed :-)
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-10-01T22:26:49 +0200" - miklop - INFO - File opened successfully :-)
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Trying read line from logfile
-"2020-10-01T22:26:49 +0200" - miklop - INFO - We got first line :-)
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Trying parse "system" line: {"time":"2020-10-01T17:06:06.735968+00:00","syslogtag":"script,info","msg":" router.k: script=system cpuLoad=0 freeMEM=77426688 totalMEM=134217728 freeHDD=1867776 totalHDD=15990784"
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Writing to database
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Writing to database OK :-)
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Writing last time to config file
-"2020-10-01T22:26:49 +0200" - miklop - INFO - Writing last time OK :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Conversion succeed :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-10-01T22:27:33 +0200" - miklop - INFO - File opened successfully :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Trying read line from logfile
-"2020-10-01T22:27:33 +0200" - miklop - INFO - We got first line :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Trying parse "system" line: {"time":"2020-10-01T17:06:06.735968+00:00","syslogtag":"script,info","msg":" router.k: script=system cpuLoad=0 freeMEM=77426688 totalMEM=134217728 freeHDD=1867776 totalHDD=15990784"
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Line parsed OK :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Writing to database
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Writing to database OK :-)
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Writing last time to config file
-"2020-10-01T22:27:33 +0200" - miklop - INFO - Writing last time OK :-)
+"2020-10-02T17:03:28 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-02T17:03:28 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-02T17:03:28 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-02T17:03:28 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-02T17:03:28 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-02T17:03:28 +0200" - miklop - INFO - We got first line :-)
+"2020-10-02T17:03:30 +0200" - miklop - INFO - No new entries
+"2020-10-02T17:03:30 +0200" - miklop - INFO - Writing last time to config file
+"2020-10-02T17:04:11 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-02T17:04:11 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-02T17:04:11 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-02T17:04:11 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-02T17:04:11 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-02T17:04:11 +0200" - miklop - INFO - We got first line :-)
+"2020-10-02T17:04:50 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-02T17:04:50 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-02T17:04:50 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-02T17:04:50 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-02T17:04:50 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-02T17:04:50 +0200" - miklop - INFO - We got first line :-)
+"2020-10-02T17:04:52 +0200" - miklop - INFO - Writing to database: ['router.k_DNS,domain=pi.k,localIP=192.168.27.186 value=1 1601649718']
+"2020-10-02T17:04:52 +0200" - miklop - INFO - Writing last time to config file
+"2020-10-02T17:05:05 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-02T17:05:05 +0200" - miklop - INFO - Conversion succeed :-)
+"2020-10-02T17:05:05 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-02T17:05:05 +0200" - miklop - INFO - File opened successfully :-)
+"2020-10-02T17:05:05 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-02T17:05:05 +0200" - miklop - INFO - We got first line :-)
+"2020-10-02T17:05:07 +0200" - miklop - INFO - No new entries
+"2020-10-02T17:05:07 +0200" - miklop - INFO - Writing last time to config file
