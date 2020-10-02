@@ -170,7 +170,7 @@ while True:
   f.close()
 
   if len(parsedLine) > 0:
-    logger.info('Writing to database: ' + str(parsedLine))
+    logger.info('Writing to database: ' + str(len(parsedLine)))
     try:
       writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
     except Exception as e :
