@@ -1,0 +1,8 @@
+/logs/miklop.log {
+        rotate 4
+        daily
+        delaycompress
+        compress
+	copytruncate
+}
+
