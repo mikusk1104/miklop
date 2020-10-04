@@ -72,7 +72,6 @@ try:
 except:
   logger.error('Problem convert date to object, please check section "lasttimeutc" if date is in correct format example: "2020-09-25T12:49:43.943211+00:00"')
   exit()
-logger.info('Conversion succeed :-)')
 
 logger.info('Trying open logfile: ' + logFile)
 try:
@@ -80,7 +79,6 @@ try:
 except:
   logger.error('Problem open file: ' + logFile)
   exit()
-logger.info('File opened successfully :-)')
 
 logger.info('Trying read line from logfile')
 try:
@@ -88,100 +86,97 @@ try:
 except:
   logger.error('Problem read line from logfile')
   exit()
-logger.info('We got first line :-)')
 
 parsedLine = []
 
-while True:
-  while line:
-    if "query from" in line:
-      try:
-        t = parseDNS.parseDNS(line, lastTimeObj)
-      except Exception as e:
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "script=dns" in line:
-      try:
-        t = parseDNS.parseDNS_cache(line, lastTimeObj)
-      except Exception as e:
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "logged in" in line or "logged out" in line:
-      try:
-        t = parseUSERS.parseUserLogged(line, lastTimeObj)
-      except Exception as e :
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "login failure" in line:
-      try:
-        t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
-      except Exception as e :
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "script=accounting" in line:
-      try:
-        t = parseAccounting.parseAccounting(line, lastTimeObj)
-      except Exception as e :
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "rx-bits-per-second=" in line:
-      try:
-        t = parseInterfaces.parseInterface(line, lastTimeObj)
-      except Exception as e :
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-    if "script=system" in line:
-      try:
-        t = parseSYSTEM.parseSystem(line, lastTimeObj)
-      except Exception as e :
-        logger.error(e)
-        line = f.readline()
-        continue
-      if t != '':
-        parsedLine.append(t)
-
-
-    line = f.readline()    
-    
-  f.close()
-
-  if len(parsedLine) > 0:
-    logger.info('Writing to database: ' + str(len(parsedLine)))
+while line:
+  if "query from" in line:
     try:
-      writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
+      t = parseDNS.parseDNS(line, lastTimeObj)
+    except Exception as e:
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+  if "script=dns" in line:
+    try:
+      t = parseDNS.parseDNS_cache(line, lastTimeObj)
+    except Exception as e:
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+  if "logged in" in line or "logged out" in line:
+    try:
+      t = parseUSERS.parseUserLogged(line, lastTimeObj)
     except Exception as e :
       logger.error(e)
-  else:
-    logger.info('No new entries')
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
 
-  logger.info('Writing last time to config file')
+  if "login failure" in line:
+    try:
+      t = parseUSERS.parseUserLoginFailure(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+  if "script=accounting" in line:
+    try:
+      t = parseAccounting.parseAccounting(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+  if "rx-bits-per-second=" in line:
+    try:
+      t = parseInterfaces.parseInterface(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+  if "script=system" in line:
+    try:
+      t = parseSYSTEM.parseSystem(line, lastTimeObj)
+    except Exception as e :
+      logger.error(e)
+      line = f.readline()
+      continue
+    if t != '':
+      parsedLine.append(t)
+
+
+  line = f.readline()    
+    
+f.close()
+
+if len(parsedLine) > 0:
+  logger.info('Writing to database: ' + str(len(parsedLine)))
   try:
-    getConfig.writeLastTime(configFile)
+    writeInfluxDB.writeInfluxDB(parsedLine, influx_hostname, influx_port, influx_db)
   except Exception as e :
     logger.error(e)
+else:
+  logger.info('No new entries')
+
+logger.info('Writing last time to config file')
+try:
+  getConfig.writeLastTime(configFile)
+except Exception as e :
+  logger.error(e)
   
-  time.sleep(60)

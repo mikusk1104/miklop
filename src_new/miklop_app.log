@@ -1,7 +1,10 @@
-"2020-10-02T17:16:06 +0200" - miklop - INFO - Trying convert string date to date object
-"2020-10-02T17:16:06 +0200" - miklop - INFO - Conversion succeed :-)
-"2020-10-02T17:16:06 +0200" - miklop - INFO - Trying open logfile: miklop.log
-"2020-10-02T17:16:06 +0200" - miklop - INFO - File opened successfully :-)
-"2020-10-02T17:16:06 +0200" - miklop - INFO - Trying read line from logfile
-"2020-10-02T17:16:06 +0200" - miklop - INFO - We got first line :-)
-"2020-10-02T17:16:08 +0200" - miklop - INFO - Writing to database: 1
+"2020-10-04T06:44:44 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-04T06:44:44 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-04T06:44:44 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-04T06:44:47 +0200" - miklop - INFO - Writing to database: 1
+"2020-10-04T06:44:47 +0200" - miklop - INFO - Writing last time to config file
+"2020-10-04T06:45:47 +0200" - miklop - INFO - Trying convert string date to date object
+"2020-10-04T06:45:47 +0200" - miklop - INFO - Trying open logfile: miklop.log
+"2020-10-04T06:45:47 +0200" - miklop - INFO - Trying read line from logfile
+"2020-10-04T06:45:49 +0200" - miklop - INFO - Writing to database: 1
+"2020-10-04T06:45:49 +0200" - miklop - INFO - Writing last time to config file
